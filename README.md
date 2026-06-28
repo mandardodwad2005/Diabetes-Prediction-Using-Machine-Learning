@@ -80,7 +80,7 @@ The following analyses were performed:
 
 ## Diabetes Distribution
 
-![Diabetes Distribution](images/Diabetes_distribution_plot.png)
+![Diabetes Distribution](images/Diabetes_distrubution_plot.png)
 
 ---
 
