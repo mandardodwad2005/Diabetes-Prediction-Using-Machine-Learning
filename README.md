@@ -1,170 +1,214 @@
 # 🩺 Diabetes Prediction Using Machine Learning
 
-## 📌 Overview
+![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)
+![Scikit-Learn](https://img.shields.io/badge/Scikit--Learn-ML-orange?logo=scikitlearn)
+![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas)
+![NumPy](https://img.shields.io/badge/NumPy-Numerical%20Computing-013243?logo=numpy)
+![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-blue)
+![Status](https://img.shields.io/badge/Project-Completed-success)
 
-Diabetes is one of the most common chronic diseases worldwide, and early prediction can help people receive timely medical attention. This project focuses on building a machine learning model that predicts whether a person is likely to have diabetes based on demographic, lifestyle, and clinical health information.
+---
 
-The project covers the complete machine learning workflow, including data preprocessing, exploratory data analysis (EDA), feature engineering, model training, performance evaluation, and feature importance analysis.
+## 📌 Project Overview
 
+Diabetes is one of the fastest-growing chronic diseases worldwide, making early prediction an important step toward better healthcare. This project uses Machine Learning techniques to predict whether a patient is likely to have diabetes based on demographic, lifestyle, and clinical health data.
 
-## 🎯 Project Objective
+The project demonstrates a complete machine learning workflow—from data preprocessing and exploratory data analysis (EDA) to model training, evaluation, and feature importance analysis.
 
-The primary objective of this project is to develop a reliable machine learning model that can accurately predict diabetes using patient health-related data. Multiple classification algorithms were implemented and compared to identify the best-performing model.
+---
 
+## 🎯 Objective
 
-## 📂 Dataset
+The goal of this project is to build an accurate machine learning model that can predict diabetes and compare the performance of multiple classification algorithms to identify the best-performing model.
 
-The dataset contains **100,000 patient records** with **31 features**, including:
+---
 
-* Age
-* Gender
-* Ethnicity
-* BMI
-* Blood Pressure
-* Cholesterol Levels
-* HbA1c
-* Glucose Levels
-* Physical Activity
-* Lifestyle Factors
-* Family History of Diabetes
+## 📂 Dataset Information
 
-**Target Variable:**
+The dataset contains approximately **100,000 patient records** with demographic, lifestyle, and medical information.
 
-* `diagnosed_diabetes`
+### Features include:
 
-  * **0** → No Diabetes
-  * **1** → Diabetes
+- Age
+- Gender
+- Ethnicity
+- BMI
+- Blood Pressure
+- Cholesterol Levels
+- HbA1c
+- Glucose Levels
+- Physical Activity
+- Smoking Status
+- Family History
+- Lifestyle Factors
 
+**Target Variable**
+
+- **0** → No Diabetes
+- **1** → Diabetes
+
+---
 
 ## 🛠️ Technologies Used
 
-* Python
-* Pandas
-* NumPy
-* Matplotlib
-* Seaborn
-* Scikit-learn
-* Google Colab
+- Python
+- Pandas
+- NumPy
+- Matplotlib
+- Seaborn
+- Scikit-learn
+- Google Colab
 
+---
 
 ## 📊 Exploratory Data Analysis
 
-During the analysis, the following tasks were performed:
+The following analyses were performed:
 
-* Checked dataset dimensions and data types
-* Verified missing values and duplicate records
-* Analyzed target class distribution
-* Explored numerical and categorical features
-* Visualized important variables using histograms
-* Generated a correlation heatmap
-* Performed feature encoding
+- Data Cleaning
+- Missing Value Checking
+- Duplicate Record Checking
+- Target Variable Analysis
+- Distribution Plots
+- Correlation Analysis
+- Feature Encoding
+- Feature Engineering
 
+---
+
+# 📸 Project Visualizations
+
+## Diabetes Distribution
+
+![Diabetes Distribution](images/Diabetes_distribution_plot.png)
+
+---
+
+## Correlation Heatmap
+
+![Correlation Heatmap](images/Correlation_heatmap.png)
+
+---
+
+## Feature Importance
+
+![Feature Importance](images/Feature_importance.png)
+
+---
+
+## Confusion Matrix
+
+![Confusion Matrix](images/Confusion_matrix.png)
+
+---
 
 ## 🤖 Machine Learning Models
 
-The following classification models were trained and evaluated:
+The following models were trained and evaluated:
 
-* Logistic Regression
-* K-Nearest Neighbors (KNN)
-* Decision Tree Classifier
-* Random Forest Classifier
+- Logistic Regression
+- K-Nearest Neighbors (KNN)
+- Decision Tree Classifier
+- Random Forest Classifier
 
+---
 
 ## 📈 Model Performance
 
-| Model               | Accuracy     |
-| ------------------- | ------------ |
-| Logistic Regression | **83.98%**   |
-| K-Nearest Neighbors | **80.85%**   |
-| Decision Tree       | **86.23%**   |
-| Random Forest       | **92.02%** ✅ |
+| Model | Accuracy |
+|--------|---------:|
+| Logistic Regression | 83.98% |
+| K-Nearest Neighbors | 80.85% |
+| Decision Tree | 86.23% |
+| **Random Forest** | **92.02%** ✅ |
 
-Among all the models, the **Random Forest Classifier** achieved the highest accuracy and delivered the best overall performance.
+The **Random Forest Classifier** achieved the highest accuracy and provided the best overall performance among all the tested models.
 
+---
 
-## 🔍 Important Features
+## 🔍 Key Findings
 
-Feature importance analysis showed that the following variables had the greatest impact on diabetes prediction:
+The most important features influencing diabetes prediction were:
 
-* HbA1c
-* Postprandial Glucose
-* Fasting Glucose
-* Diabetes Risk Score
-* Physical Activity
-* BMI
-* Triglycerides
-* Insulin Level
-* Age
+- HbA1c
+- Postprandial Glucose
+- Fasting Glucose
+- Diabetes Risk Score
+- BMI
+- Physical Activity
+- Triglycerides
+- Insulin Level
+- Age
 
+---
 
 ## 🚀 How to Run the Project
 
-1. Clone this repository.
-2. Install the required libraries:
+### Clone the repository
+
+```bash
+git clone https://github.com/mandardodwad2005/Diabetes-Prediction-Using-Machine-Learning.git
+```
+
+### Install the required libraries
 
 ```bash
 pip install -r requirements.txt
 ```
 
-3. Open the notebook:
+### Run the notebook
 
-```bash
-Diabetes_Prediction.ipynb
+Open:
+
+```
+Diabetes_prediction.ipynb
 ```
 
-4. Run all cells to reproduce the complete analysis and model training.
+and execute all cells.
 
+---
 
-## 📌 Project Highlights
+## 📁 Project Structure
 
-* Complete end-to-end Machine Learning workflow
-* Data preprocessing and feature engineering
-* Exploratory Data Analysis (EDA)
-* Comparison of multiple ML algorithms
-* Performance evaluation using Accuracy, Confusion Matrix, and Classification Report
-* Feature Importance visualization
+```
+Diabetes-Prediction-Using-Machine-Learning/
+│
+├── images/
+│   ├── Diabetes_distribution_plot.png
+│   ├── Correlation_heatmap.png
+│   ├── Feature_importance.png
+│   └── Confusion_matrix.png
+│
+├── Diabetes_prediction.ipynb
+├── requirements.txt
+├── Project_Diabetes Prediction Using Machine Learning.pdf
+└── README.md
+```
 
+---
 
-## 📸 Project Visualizations
+## 🌟 Future Improvements
 
-### Diabetes Distribution
+- Hyperparameter Tuning
+- Cross Validation
+- XGBoost & LightGBM Models
+- Model Deployment using Streamlit or Flask
+- Real-time Diabetes Prediction Web Application
 
-![Diabetes Distribution](images/Diabetes%20distrubution%20plot.png)
-
-### Correlation Heatmap
-
-![Correlation Heatmap](images/Correlation%20heatmap.png)
-
-### Feature Importance
-
-![Feature Importance](images/Feature%20importance.png)
-
-### Confusion Matrix
-
-![Confusion Matrix](images/Confusion%20matrix.png)
-
-
-## 🔮 Future Improvements
-
-Some possible enhancements for this project include:
-
-* Hyperparameter tuning
-* Cross-validation
-* Model deployment using Flask or Streamlit
-* Integration with a web-based user interface
-* Testing advanced models such as XGBoost and LightGBM
-
+---
 
 ## 👨‍💻 Author
 
 **Mandar Dodwad**
 
-Electronics and Computer Engineering Student
+Electronics & Computer Engineering Student
 
-Passionate about Java, Backend Development, Machine Learning, and solving real-world problems through technology.
+Interested in **Java, Backend Development, Machine Learning, and Software Development.**
 
+---
 
 ## ⭐ Support
 
-If you found this project helpful, consider giving this repository a ⭐. Feedback and suggestions are always welcome!
+If you found this project useful, please consider giving it a ⭐ on GitHub.
 
+Feedback and suggestions are always welcome!
