@@ -125,6 +125,25 @@ Diabetes_Prediction.ipynb
 * Feature Importance visualization
 
 
+## 📸 Project Visualizations
+
+### Diabetes Distribution
+
+![Diabetes Distribution](images/Diabetes%20distrubution%20plot.png)
+
+### Correlation Heatmap
+
+![Correlation Heatmap](images/Correlation%20heatmap.png)
+
+### Feature Importance
+
+![Feature Importance](images/Feature%20importance.png)
+
+### Confusion Matrix
+
+![Confusion Matrix](images/Confusion%20matrix.png)
+
+
 ## 🔮 Future Improvements
 
 Some possible enhancements for this project include:
